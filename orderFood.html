@@ -1,0 +1,163 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Antic+Didone&family=Croissant+One&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="orderFood.css">
+</head>
+
+<body>
+    <header class="home__header">
+        <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+
+            <div class="container">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="orderFood.html">Order food</a>
+                        </li>
+                        <li class="nav-item">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Our Menu
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" target="_blank" href="">North Indian</a></li>
+                                <li><a class="dropdown-item" target="_blank" href="#">South Indian</a></li>
+                                <li><a class="dropdown-item" target="_blank" href="northeast.html">North East
+                                        Special</a></li>
+                                <li><a class="dropdown-item" target="_blank" href="#">Paw Bhaji</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About us</a>
+                        </li>
+                    </ul>
+                </div>
+                <a class="navbar-brand" href="index.html">Food Valley</a>
+            </div>
+        </nav>
+        <div class="order--form">
+            <div class="container">
+                <h1 class="text-light">Don't Wait Order Now</h1>
+                <div class="row">
+                    <div class="col-lg-6 col-md-6 col-sm-12">
+                        <div class="form-floating mb-3">
+                            <input type="text" class="form-control" id="floatingInput" placeholder="First Name">
+                            <label for="floatingInput">First Name</label>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-12">
+                        <div class="form-floating mb-3">
+                            <input type="text" class="form-control" id="floatingInput" placeholder="First Name">
+                            <label for="floatingInput">Last Name</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-6 col-md-6 col-sm-12">
+                        <div class="form-floating mb-3">
+                            <input type="email" class="form-control" id="floatingInput" placeholder="user@gmail.com">
+                            <label for="floatingInput">Your Email</label>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-2 col-sm-4">
+                        <div class="form-floating">
+                            <select class="form-select" id="floatingSelectGrid">
+                                <option selected>+91</option>
+                                <option value="1">+101</option>
+                                <option value="2">+92</option>
+                                <option value="3">+112</option>
+                            </select>
+                            <label for="floatingSelectGrid select-label text-dark">Select region</label>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-8">
+                        <div class="form-floating mb-3">
+                            <input type="tel" class="form-control" id="floatingInput" placeholder="First Name">
+                            <label for="floatingInput">Phone Number</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-floating mb-3">
+                    <input type="text" class="form-control" id="floatingPassword" placeholder="Address Line 1" required>
+                    <label for="floatingPassword">Address Line 1*</label>
+                </div>
+                <div class="form-floating mb-3">
+                    <input type="text" class="form-control" id="floatingPassword" placeholder="Address Line 2">
+                    <label for="floatingPassword">Address Line 2</label>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <div class="form-floating mb-3">
+                            <input type="email" class="form-control" id="floatingInput" placeholder="user@gmail.com">
+                            <label for="floatingInput">City</label>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-12">
+                        <div class="form-floating mb-3">
+                            <input type="tel" class="form-control" id="floatingInput" placeholder="First Name">
+                            <label for="floatingInput">State</label>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-12">
+                        <div class="form-floating mb-3">
+                            <input type="tel" class="form-control" id="floatingInput" placeholder="First Name">
+                            <label for="floatingInput">Pincode</label>
+                        </div>
+                    </div>
+                </div>
+
+                <a href="#" class="btn hero--section--btn__order"><span>Order now</span></a>
+            </div>
+        </div>
+        <footer id="footer" class="bg-dark text-light fixed-bottom">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 col-md-6 col-sm-12">
+                        <div class="footer-caption text-secondary">
+                            &copy; developed by Priyanka Bhattarai | 2022
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-12">
+                        <div class="social-icons d-flex justify-content-end">
+                            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+    </header>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+        crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/8a9b30125f.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
