@@ -1,5 +1,98 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h3 {
+  font-size: 50px;
+}
+p {
+  font-size: 20px;
+  text-align: justify;
+  line-height: 2.5rem;
+}
+
+p#instruction {
+  font-size: 30px;
+  margin-top: 2rem;
+}
+
+main section#section--NE .food {
+  margin-top: 10rem;
+}
+
+main section#section--NE {
+  padding: 4rem 0;
+  color: white;
+}
+
+main section#section--NE .recepie--1 {
+  padding: 2rem;
+}
+
+main section#section--NE .recepie--img {
+  height: 80vh;
+  width: 80%;
+  overflow: hidden;
+  position: relative;
+}
+
+main section#section--NE .recepie--img span {
+  position: absolute;
+  height: 95%;
+  width: 95%;
+  border: 2px solid white;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 111;
+  transition: 0.5s ease-in-out;
+}
+
+main section#section--NE .recepie--img span:hover {
+  height: 90%;
+  width: 90%;
+}
+
+main section#section--NE .recepie--img:hover > img {
+  transform: scale(1.1);
+}
+
+main section#section--NE .recepie--img img {
+  height: 700px;
+  width: 600px;
+  object-fit: cover;
+  transition: 0.4s ease-in-out;
+}
+
+main section#section--NE .recepie--img img:hover {
+  transform: scale(1.1);
+}
+
+main section#section--NE .recepie--1 a.hero--section--btn__order {
+  text-decoration: none;
+  font-size: 20px;
+  background-color: #ffffff73;
+  padding: 1rem 0.2rem;
+  margin-top: 4rem;
+  transition: 0.5s ease-in-out;
+  color: white;
+  /* border: 1px solid white; */
+}
+
+main section#section--NE .recepie--1 a.hero--section--btn__order span {
+  /* border: 1px solid #ffffff; */
+  padding: 0.98rem 3rem;
+  border-radius: 0.3rem;
+  font-family: "Antic Didone", serif;
+}
+
+main section#section--NE .recepie--1 a.hero--section--btn__order:hover {
+  background-color: #198754;
+  color: #198754;
+}
+
+main section#section--NE .recepie--1 a.hero--section--btn__order span:hover {
+  background-color: white !important;
 }

@@ -1,0 +1,73 @@
+body {
+  background: #2d2d2d;
+}
+
+header h1 {
+  margin-bottom: 2rem;
+}
+
+header .order--form {
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: "Antic Didone", serif;
+}
+
+header .order--form label {
+  color: white;
+}
+
+header .order--form select {
+  background-color: #393939;
+  border: 0;
+  outline: none;
+  border-radius: 0.2rem;
+  color: white;
+}
+
+header .order--form input {
+  outline: none !important;
+  border: 0 !important;
+  border-radius: 0.2rem;
+  background: #393939;
+  color: white;
+  box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.114);
+}
+
+header .order--form input:focus {
+  outline: none !important;
+  border: 0 !important;
+  background-color: #636363;
+  color: white;
+}
+header .order--form input:active {
+  outline: none !important;
+  border: 0 !important;
+  color: white;
+}
+
+header a.hero--section--btn__order {
+  text-decoration: none;
+  font-size: 20px;
+  background-color: #ff8412;
+  padding: 1rem 0.2rem;
+  margin-top: 2rem;
+  color: white;
+  position: relative;
+  transition: 0.5s ease-in-out;
+}
+
+header a.hero--section--btn__order:hover {
+  box-shadow: 1px 1px 30px rgba(0, 0, 0, 0.192);
+  background-color: #ff8412;
+  color: white;
+}
+
+header a.hero--section--btn__order span {
+  border: 1px solid white;
+  padding: 0.9rem 3rem;
+  border-radius: 0.3rem;
+  font-family: "Antic Didone", serif;
+}
